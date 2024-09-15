@@ -4,6 +4,6 @@ import "gorm.io/gorm"
 
 type Tryout struct {
 	gorm.Model
-	To  string `json:"to"`
+	Title  string `json:"title"`
 	Api string `json:"api"`
 }
